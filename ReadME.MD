@@ -10,16 +10,10 @@ Assuming Master And Transaction data has been loaded and database has been selec
 ## Step 1: Create the tables for the star Schema
 - run the provided createDW.sql file to create the star schema
 
+
 ## Step 2: Loading the project into Eclipse
-- Launch eclipse
-- Go to File->Import
-- A window will pop up
-- In the selection Window go to General->Archive
-- Click next
-- Click browse on the right of "From Archive File:" and navigate to the i180474_DWH_Project.zip 
-- Select the directory where to import the project by click on browse button and select the folder
-- Press Ok and then Click Finish
-- Now the project will be imported into eclipse
+- Copy the bin and src folders to your project
+
 
 ## Step 3 : Ensuring successfull connection to the MySQL
 - Open DB_Handle.java
@@ -31,6 +25,7 @@ Assuming Master And Transaction data has been loaded and database has been selec
 ## Step 4: Run as Java application
 - If done correctly the code will prompt with successfull connection of the stream handlers.
 - if the above step were successful the application will simulate the Mesh Join and start loading data in to the star schema
+
 
 ## Step 5: Running OLAP Queries
 - After the application prompts for completion
